@@ -1,0 +1,20 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 250px;
+    color: rgb(41, 39, 39);
+    height: 60%;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }
